@@ -1,0 +1,27 @@
+{%extends 'layout.html'%}
+
+{%block contentDASH%}
+<h2 class="p-2 mx-2 my-2"> Dashboard </h2>
+<br/>
+
+<div class="card w-75 mx-5">
+    <div class="card-header">
+      Valerio Musumeci
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Benvenuto nella tua Dashboard!</h5>
+      <p class="card-text"><strong>Nome: </strong> </br>
+        <strong>Cognome:</strong> </br>
+        <strong>User id:</strong> </br>
+        <strong>Email:</strong> </br>
+        <strong>Cronologia acquisti:</strong> </br>
+        <strong>I miei ordini: </strong> </br>
+        <strong>I miei annunci in vendita: </strong> </br>
+        <strong>Data iscrizione: </strong> </br>
+        <strong>Stefsara credit points: </strong></p>
+      <a href="#" class="btn btn-dark btn-sm">Logout</a>
+      <a href="{{url_for('homepage')}}" class="btn btn-dark btn-sm">Ritorna all'homepage</a>
+    </div>
+  </div>
+{%endblock contentDASH%}
+

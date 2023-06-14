@@ -1,0 +1,182 @@
+{%extends 'layout.html'%}
+
+{% block contentA %}
+
+ <!-- INIZIO HEADER -->
+ <header class="myHeader">
+  <div class="container h-100">
+    <div class="row h-100 position-relative">
+      <div class="col-12 ">
+        <h1 class="fw-lighter fst-italic display-3 text-light position-absolute top-50 end-0 translate-middle-y ">YOUR SUMMER MOOD</h1>
+       
+      </div>
+    </div>
+  </div>
+</header>
+ 
+  
+  
+  <!-- section card summer edition -->
+  <section class="container my-5 p-5 ">
+    <div class="row position-relative">
+        <div class="col-12 col-md-5 " data-aos="fade-right" data-aos-duration="1500">
+          <div class="zoom">
+            
+                   <a href="{{url_for('nuoviarrivi')}}"> <image src="{{url_for('static', filename='images/summermood.avif')}}" class="img-fluid rounded" alt="...">
+                   </a>
+                  </div>
+                </div>
+                  <div class="col-12 col-md-5 my-auto text-end mx-5 ">
+                    <div class="card-body ">
+                      
+                      <h5 class="card-title my-2"><a href="{{url_for('nuoviarrivi')}}" class="summeredition">Summer Edition</a></h5> 
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer .</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          
+       
+        <!-- CARD ALPHA -->
+        <h2 class="my-2 p-3"><a href="{{url_for('accessori')}}" class="summeredition">Gli accessori più amati</a></h2> 
+        <div class="container-fluid cardAlphaBg cardOverflow">
+          <div class="row rowCardAlpha" data-aos="flip-down" data-aos-duration="3000"  id="rowPadreCard">
+            
+          </div>
+          
+      </div>
+
+        <!-- FINE CARD ALPHA -->
+
+    
+ 
+<!-- INZIO SECTION PARTY FAVOURITES -->
+<section class="container my-5 p-5 ">
+  <div class="row position-relative my-5 py-5 text-center ">
+      <div class="col-12 col-md-6 my-auto  ">
+                  <div class="card-body ">
+                    
+                    <h5 class="card-title my-2"><a href="{{url_for('nuoviarrivi')}}" class="summeredition">Party favourites</a> </h5> 
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer .</p>
+                    
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 " data-aos="fade-left" data-aos-duration="3000">
+                  <div class="zoom">
+                    
+                            <a href="{{url_for('nuoviarrivi')}}"><image src="{{url_for('static',filename='images/summermood3.avif')}}" class="img-fluid rounded mysize" alt="...">
+                            </a>
+                          </div>
+                        </div>
+              </div>
+            </div>
+          </section>
+     
+    
+       <hr>
+       <!-- FINE SECTION PARTY FAVOURITES -->
+<div class="container-fluid p-5">
+  <div class="row text-center">
+    <div class="col-12 col-md-12">
+      <h3 class="fs-italic fs-lighter"> Scorri per vedere i trends più amati</h3>
+    </div>
+  </div>
+</div>
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="card carCard" style="width: 18rem;">
+        <img src="https://picsum.photos/500/600" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="">Abbigliamento
+            <i class="fa-regular fa-heart fs-5 mx-2" id="myHeart"></i> 
+          </h5>
+          <p class="card-text">Breve descrizione dell'articolo</p>
+          <a href="{{url_for('abbigliamento')}}" class="btn btn-dark">Vai al dettaglio</a>
+          
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-slide"><div class="card carCard" style="width: 18rem;">
+      <img src="https://picsum.photos/500/600" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="">Abbigliamento
+          <i class="fa-regular fa-heart fs-5 mx-2" id="myHeart"></i> 
+        </h5>
+        <p class="card-text">Breve descrizione dell'articolo</p>
+        <a href="{{url_for('abbigliamento')}}" class="btn btn-dark">Vai al dettaglio</a>
+        
+      </div>
+    </div>
+  </div>
+    <div class="swiper-slide"><div class="card carCard" style="width: 18rem;">
+      <img src="https://picsum.photos/500/600" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="">Abbigliamento
+          <i class="fa-regular fa-heart fs-5 mx-2" id="myHeart"></i> 
+        </h5>
+        <p class="card-text">Breve descrizione dell'articolo</p>
+        <a href="{{url_for('abbigliamento')}}" class="btn btn-dark">Vai al dettaglio</a>
+        
+      </div>
+    </div>
+  </div>
+    <div class="swiper-slide"><div class="card carCard" style="width: 18rem;">
+      <img src="https://picsum.photos/500/600" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="">Abbigliamento
+          <i class="fa-regular fa-heart fs-5 mx-2" id="myHeart"></i> 
+        </h5>
+        <p class="card-text">Breve descrizione dell'articolo</p>
+        <a href="{{url_for('abbigliamento')}}" class="btn btn-dark">Vai al dettaglio</a>
+        
+      </div>
+    </div>
+  </div>
+    <div class="swiper-slide"><div class="swiper-slide"><div class="card carCard" style="width: 18rem;">
+      <img src="https://picsum.photos/500/600" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="">Abbigliamento
+          <i class="fa-regular fa-heart fs-5 mx-2" id="myHeart"></i> 
+        </h5>
+        <p class="card-text">Breve descrizione dell'articolo</p>
+        <a href="{{url_for('abbigliamento')}}" class="btn btn-dark">Vai al dettaglio</a>
+      </div>
+      </div>
+    </div>
+  </div>
+    <div class="swiper-slide"><div class="swiper-slide"><div class="card carCard" style="width: 18rem;">
+      <img src="https://picsum.photos/500/600" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5>Abbigliamento
+          <i class="fa-regular fa-heart fs-5 mx-2" id="myHeart"></i> 
+        </h5>
+        <p class="card-text">Breve descrizione dell'articolo</p>
+        <a href="{{url_for('abbigliamento')}}" class="btn btn-dark">Vai al dettaglio</a>
+        
+      </div>
+    </div>
+  </div>
+    
+  </div>
+  
+  
+</div>
+
+
+<hr>
+
+
+                    
+
+  
+
+
+{% endblock contentA %}
+

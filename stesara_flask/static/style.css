@@ -1,0 +1,174 @@
+/* .root{
+    --var dovrei dare un font di base e dei colori deciderò essere la base dell'applicativo
+    ma prima il back-end.
+} */
+
+body{
+  overflow-y: scroll !important;
+  
+  }
+
+
+
+/* stefsara logo */
+.mystefsaradiv{
+  background-color:#d2b48c;
+}
+.mystefsara{
+  width: 220px;
+  height: 250px;
+  
+}
+
+/* card ahlpa  */
+.cardOverflow{
+  overflow-x: hidden !important;
+}
+
+
+/* NAVBAR CSS */
+.navbar-toggler{
+  background-color: tan !important;
+}
+.mynav:hover{
+  color: burlywood !important;
+  
+}
+.myIcon{
+  color: #d2b48c;
+  cursor: pointer;
+  padding: 10px;
+  
+
+}
+
+#myHeart{
+  cursor: pointer;
+}
+/* CSS HEADER */
+.myHeader {
+  height: 100vh;
+  min-height: 500px;
+  background: linear-gradient(#00000088 , #00000008 ) , url('/static/images/tamara-bellis-68csPWTnafo-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* css cards accessori */
+.cardAlphaBg{
+  background-color: #d2b48c;
+}
+
+
+.imgCardAlpha{
+  cursor: pointer;
+}
+
+
+
+
+/*  CSS SUMMER EDITION */
+
+
+.zoom{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+}
+.zoom img{
+  display: block;
+  transform: scale(1);
+  transition: all .2s linear;
+}
+.zoom img:hover{
+transform: scale(1.1);
+
+
+}
+
+.summeredition{
+  cursor: pointer;
+}
+
+.summeredition:hover{
+  color:burlywood !important;
+}
+
+
+
+
+/* anchor puliti */
+  a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+  color: inherit;
+    text-decoration: none;
+
+}
+
+/* css swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.carCard{
+ border:none!important; 
+ cursor: pointer !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* swiper css */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* css login */
+
+
+/* css register */
+  
+    
